@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.esotericsoftware.spine.timeline": {
-      "version": "file:C:/Users/Vadya/Downloads/com.esotericsoftware.spine.timeline-4.1",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.timeline": "1.2.10"
-      }
-    },
     "com.unity.2d.animation": {
       "version": "7.0.9",
       "depth": 1,
