@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/Assets/scripts/HitDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/PlayAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HitDetection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687222331765</updated>
       <workItem from="1687222343293" duration="2922000" />
+      <workItem from="1687385549409" duration="746000" />
     </task>
     <servers />
   </component>
@@ -97,6 +100,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -8,21 +8,21 @@ using UnityEngine.UI;
 public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private HitDetection _hitDetection;
-    [SerializeField] private GameObject buttonNextScene;
+    [SerializeField] private GameObject buttonNextSceneGameObject;
     [SerializeField] private Button buttonScene;
 
     [SerializeField] [Range(0,1)] private int sceneIndexToLoad;
         void Start()
         {
             _hitDetection.hitAction += InitializeButton;
-            buttonNextScene.SetActive(false);
+            buttonNextSceneGameObject.SetActive(false);
             
             buttonScene.onClick.AddListener((() => {SceneManager.LoadScene(sceneIndexToLoad);}));
         }
 
         private void InitializeButton()
         {
-            buttonNextScene.SetActive(true);
+            buttonNextSceneGameObject.SetActive(true);
         }
 
         private void OnDestroy()

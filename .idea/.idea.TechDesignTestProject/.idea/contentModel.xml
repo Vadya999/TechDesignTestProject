@@ -35,6 +35,7 @@
           <e p="voices" t="Include" />
         </e>
         <e p="Editor" t="Include" />
+        <e p="Fonts" t="Include" />
         <e p="Images" t="Include">
           <e p="animation_sprites" t="Include" />
           <e p="background" t="Include">
@@ -47,6 +48,19 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
+          <e p="AddressableAssetsData" t="Include" />
+          <e p="localization" t="Include">
+            <e p="AddressableAssetsData" t="Include">
+              <e p="Android" t="Include" />
+              <e p="AssetGroups" t="Include">
+                <e p="Schemas" t="Include" />
+              </e>
+              <e p="AssetGroupTemplates" t="Include" />
+              <e p="DataBuilders" t="Include" />
+            </e>
+            <e p="Locales" t="Include" />
+            <e p="Tables" t="Include" />
+          </e>
           <e p="spine" t="Include">
             <e p="Editor" t="Include">
               <e p="spine-unity" t="Include">
@@ -120,7 +134,6 @@
               </e>
               <e p="spine-unity-editor.asmdef" t="Include" />
             </e>
-            <e p="package.json" t="Include" />
             <e p="Runtime" t="Include">
               <e p="spine-csharp" t="Include">
                 <e p="Animation.cs" t="Include" />
@@ -350,261 +363,206 @@
               </e>
               <e p="spine-unity.asmdef" t="Include" />
             </e>
-            <e p="version.txt" t="Include" />
-          </e>
-          <e p="spine_examples" t="Include">
-            <e p="Getting Started" t="Include" />
-            <e p="Images" t="Include" />
-            <e p="Other Examples" t="Include">
-              <e p="Animation Tester" t="Include">
-                <e p="SpineAnimationTesterTool.cs" t="Include" />
+            <e p="spine_examples" t="Include">
+              <e p="Getting Started" t="Include" />
+              <e p="Images" t="Include" />
+              <e p="Other Examples" t="Include">
+                <e p="Animation Tester" t="Include">
+                  <e p="SpineAnimationTesterTool.cs" t="Include" />
+                </e>
+                <e p="Mix and Match Equip Assets" t="Include" />
+                <e p="StateMachine SkeletonAnimation" t="Include" />
               </e>
-              <e p="Mix and Match Equip Assets" t="Include" />
-              <e p="StateMachine SkeletonAnimation" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="AttackSpineboy.cs" t="Include" />
-              <e p="DraggableTransform.cs" t="Include" />
-              <e p="FootSoldierExample.cs" t="Include" />
-              <e p="Getting Started Scripts" t="Include">
-                <e p="BasicPlatformerController.cs" t="Include" />
-                <e p="ConstrainedCamera.cs" t="Include" />
-                <e p="Raptor.cs" t="Include" />
-                <e p="SpineBeginnerTwo.cs" t="Include" />
-                <e p="SpineBlinkPlayer.cs" t="Include" />
-                <e p="SpineboyBeginnerInput.cs" t="Include" />
-                <e p="SpineboyBeginnerModel.cs" t="Include" />
-                <e p="SpineboyBeginnerView.cs" t="Include" />
-                <e p="SpineboyBeginnerViewGraphic.cs" t="Include" />
-                <e p="SpineboyTargetController.cs" t="Include" />
-                <e p="SpineboyTargetControllerGraphic.cs" t="Include" />
-                <e p="TransitionDictionaryExample.cs" t="Include" />
-              </e>
-              <e p="Goblins.cs" t="Include" />
-              <e p="HandleEventWithAudioExample.cs" t="Include" />
-              <e p="HeroEffectsHandlerExample.cs" t="Include" />
-              <e p="HurtFlashEffect.cs" t="Include" />
-              <e p="MaterialPropertyBlockExample.cs" t="Include" />
-              <e p="MaterialReplacementExample.cs" t="Include" />
-              <e p="Mecanim as Logic" t="Include">
-                <e p="DummyMecanimControllerExample.cs" t="Include" />
-                <e p="MecanimToAnimationHandleExample.cs" t="Include" />
-                <e p="SkeletonAnimationHandleExample.cs" t="Include" />
-              </e>
-              <e p="MecanimAnimationMatchModifier" t="Include">
-                <e p="AnimationMatchModifierAsset.cs" t="Include" />
-                <e p="AnimationMatchModifierAsset.txt" t="Include" />
-              </e>
-              <e p="Mix and Match Character Customize" t="Include">
-                <e p="EquipAssetExample.cs" t="Include" />
-                <e p="EquipButtonExample.cs" t="Include" />
-                <e p="EquipsVisualsComponentExample.cs" t="Include" />
-                <e p="EquipSystemExample.cs" t="Include" />
-                <e p="MixAndMatchSkinsButtonExample.cs" t="Include" />
-                <e p="MixAndMatchSkinsExample.cs" t="Include" />
-              </e>
-              <e p="MixAndMatch.cs" t="Include" />
-              <e p="MixAndMatchGraphic.cs" t="Include" />
-              <e p="RaggedySpineboy.cs" t="Include" />
-              <e p="ReloadSceneOnKeyDown.cs" t="Include" />
-              <e p="RenderTextureFadeoutExample.cs" t="Include" />
-              <e p="Rotator.cs" t="Include" />
-              <e p="RuntimeLoadFromExportsExample.cs" t="Include" />
-              <e p="Sample Components" t="Include">
-                <e p="BoneLocalOverride.cs" t="Include" />
-                <e p="CombinedSkin.cs" t="Include" />
-                <e p="Ghost" t="Include">
-                  <e p="Shaders" t="Include">
-                    <e p="Spine-Special-Skeleton-Ghost.shader" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="AttackSpineboy.cs" t="Include" />
+                <e p="DraggableTransform.cs" t="Include" />
+                <e p="FootSoldierExample.cs" t="Include" />
+                <e p="Getting Started Scripts" t="Include">
+                  <e p="BasicPlatformerController.cs" t="Include" />
+                  <e p="ConstrainedCamera.cs" t="Include" />
+                  <e p="Raptor.cs" t="Include" />
+                  <e p="SpineBeginnerTwo.cs" t="Include" />
+                  <e p="SpineBlinkPlayer.cs" t="Include" />
+                  <e p="SpineboyBeginnerInput.cs" t="Include" />
+                  <e p="SpineboyBeginnerModel.cs" t="Include" />
+                  <e p="SpineboyBeginnerView.cs" t="Include" />
+                  <e p="SpineboyBeginnerViewGraphic.cs" t="Include" />
+                  <e p="SpineboyTargetController.cs" t="Include" />
+                  <e p="SpineboyTargetControllerGraphic.cs" t="Include" />
+                  <e p="TransitionDictionaryExample.cs" t="Include" />
+                </e>
+                <e p="Goblins.cs" t="Include" />
+                <e p="HandleEventWithAudioExample.cs" t="Include" />
+                <e p="HeroEffectsHandlerExample.cs" t="Include" />
+                <e p="HurtFlashEffect.cs" t="Include" />
+                <e p="MaterialPropertyBlockExample.cs" t="Include" />
+                <e p="MaterialReplacementExample.cs" t="Include" />
+                <e p="Mecanim as Logic" t="Include">
+                  <e p="DummyMecanimControllerExample.cs" t="Include" />
+                  <e p="MecanimToAnimationHandleExample.cs" t="Include" />
+                  <e p="SkeletonAnimationHandleExample.cs" t="Include" />
+                </e>
+                <e p="MecanimAnimationMatchModifier" t="Include">
+                  <e p="AnimationMatchModifierAsset.cs" t="Include" />
+                  <e p="AnimationMatchModifierAsset.txt" t="Include" />
+                </e>
+                <e p="Mix and Match Character Customize" t="Include">
+                  <e p="EquipAssetExample.cs" t="Include" />
+                  <e p="EquipButtonExample.cs" t="Include" />
+                  <e p="EquipsVisualsComponentExample.cs" t="Include" />
+                  <e p="EquipSystemExample.cs" t="Include" />
+                  <e p="MixAndMatchSkinsButtonExample.cs" t="Include" />
+                  <e p="MixAndMatchSkinsExample.cs" t="Include" />
+                </e>
+                <e p="MixAndMatch.cs" t="Include" />
+                <e p="MixAndMatchGraphic.cs" t="Include" />
+                <e p="RaggedySpineboy.cs" t="Include" />
+                <e p="ReloadSceneOnKeyDown.cs" t="Include" />
+                <e p="RenderTextureFadeoutExample.cs" t="Include" />
+                <e p="Rotator.cs" t="Include" />
+                <e p="RuntimeLoadFromExportsExample.cs" t="Include" />
+                <e p="Sample Components" t="Include">
+                  <e p="BoneLocalOverride.cs" t="Include" />
+                  <e p="CombinedSkin.cs" t="Include" />
+                  <e p="Ghost" t="Include">
+                    <e p="Shaders" t="Include">
+                      <e p="Spine-Special-Skeleton-Ghost.shader" t="Include" />
+                    </e>
+                    <e p="SkeletonGhost.cs" t="Include" />
+                    <e p="SkeletonGhostRenderer.cs" t="Include" />
                   </e>
-                  <e p="SkeletonGhost.cs" t="Include" />
-                  <e p="SkeletonGhostRenderer.cs" t="Include" />
-                </e>
-                <e p="Legacy" t="Include">
-                  <e p="AtlasRegionAttacher.cs" t="Include" />
-                  <e p="SpriteAttacher.cs" t="Include" />
-                </e>
-                <e p="OutlineSkeletonGraphic.cs" t="Include" />
-                <e p="RenderExistingMesh.cs" t="Include" />
-                <e p="RootMotionDeltaCompensation.cs" t="Include" />
-                <e p="Sample VertexEffects" t="Include">
-                  <e p="JitterEffectExample.cs" t="Include" />
-                  <e p="TwoByTwoTransformEffectExample.cs" t="Include" />
-                </e>
-                <e p="SetRigidbodySolverIterations.cs" t="Include" />
-                <e p="SkeletonAnimationFixedTimestep.cs" t="Include" />
-                <e p="SkeletonAnimationMulti" t="Include">
-                  <e p="SkeletonAnimationMulti.cs" t="Include" />
-                </e>
-                <e p="SkeletonColorInitialize.cs" t="Include" />
-                <e p="SkeletonGraphicMirror.cs" t="Include" />
-                <e p="SkeletonGraphicPlayAnimationAtEvent.cs" t="Include" />
-                <e p="SkeletonRenderTexture" t="Include">
-                  <e p="RenderQuadShader.shader" t="Include" />
-                  <e p="SkeletonGraphicRenderTexture.cs" t="Include" />
-                  <e p="SkeletonRenderTexture.cs" t="Include" />
-                  <e p="SkeletonRenderTextureBase.cs" t="Include" />
-                  <e p="SkeletonRenderTextureFadeout.cs" t="Include" />
-                </e>
-                <e p="SkeletonUtility Modules" t="Include">
-                  <e p="Editor" t="Include">
-                    <e p="SkeletonRagdoll2DInspector.cs" t="Include" />
-                    <e p="SkeletonRagdollInspector.cs" t="Include" />
-                    <e p="spine-unity-examples-editor.asmdef" t="Include" />
+                  <e p="Legacy" t="Include">
+                    <e p="AtlasRegionAttacher.cs" t="Include" />
+                    <e p="SpriteAttacher.cs" t="Include" />
                   </e>
-                  <e p="SkeletonRagdoll.cs" t="Include" />
-                  <e p="SkeletonRagdoll2D.cs" t="Include" />
-                  <e p="SkeletonUtilityEyeConstraint.cs" t="Include" />
-                  <e p="SkeletonUtilityGroundConstraint.cs" t="Include" />
-                  <e p="SkeletonUtilityKinematicShadow.cs" t="Include" />
+                  <e p="OutlineSkeletonGraphic.cs" t="Include" />
+                  <e p="RenderExistingMesh.cs" t="Include" />
+                  <e p="RootMotionDeltaCompensation.cs" t="Include" />
+                  <e p="Sample VertexEffects" t="Include">
+                    <e p="JitterEffectExample.cs" t="Include" />
+                    <e p="TwoByTwoTransformEffectExample.cs" t="Include" />
+                  </e>
+                  <e p="SetRigidbodySolverIterations.cs" t="Include" />
+                  <e p="SkeletonAnimationFixedTimestep.cs" t="Include" />
+                  <e p="SkeletonAnimationMulti" t="Include">
+                    <e p="SkeletonAnimationMulti.cs" t="Include" />
+                  </e>
+                  <e p="SkeletonColorInitialize.cs" t="Include" />
+                  <e p="SkeletonGraphicMirror.cs" t="Include" />
+                  <e p="SkeletonGraphicPlayAnimationAtEvent.cs" t="Include" />
+                  <e p="SkeletonRenderTexture" t="Include">
+                    <e p="RenderQuadShader.shader" t="Include" />
+                    <e p="SkeletonGraphicRenderTexture.cs" t="Include" />
+                    <e p="SkeletonRenderTexture.cs" t="Include" />
+                    <e p="SkeletonRenderTextureBase.cs" t="Include" />
+                    <e p="SkeletonRenderTextureFadeout.cs" t="Include" />
+                  </e>
+                  <e p="SkeletonUtility Modules" t="Include">
+                    <e p="Editor" t="Include">
+                      <e p="SkeletonRagdoll2DInspector.cs" t="Include" />
+                      <e p="SkeletonRagdollInspector.cs" t="Include" />
+                      <e p="spine-unity-examples-editor.asmdef" t="Include" />
+                    </e>
+                    <e p="SkeletonRagdoll.cs" t="Include" />
+                    <e p="SkeletonRagdoll2D.cs" t="Include" />
+                    <e p="SkeletonUtilityEyeConstraint.cs" t="Include" />
+                    <e p="SkeletonUtilityGroundConstraint.cs" t="Include" />
+                    <e p="SkeletonUtilityKinematicShadow.cs" t="Include" />
+                  </e>
+                  <e p="SlotTintBlackFollower.cs" t="Include" />
+                  <e p="SpineEventUnityHandler.cs" t="Include" />
                 </e>
-                <e p="SlotTintBlackFollower.cs" t="Include" />
-                <e p="SpineEventUnityHandler.cs" t="Include" />
+                <e p="SpawnFromSkeletonDataExample.cs" t="Include" />
+                <e p="SpawnSkeletonGraphicExample.cs" t="Include" />
+                <e p="Spineboy.cs" t="Include" />
+                <e p="SpineboyBodyTilt.cs" t="Include" />
+                <e p="SpineboyFacialExpression.cs" t="Include" />
+                <e p="SpineboyFootplanter.cs" t="Include" />
+                <e p="SpineboyFreeze.cs" t="Include" />
+                <e p="SpineboyPole.cs" t="Include" />
+                <e p="SpineboyPoleGraphic.cs" t="Include" />
+                <e p="SpineGauge.cs" t="Include" />
               </e>
-              <e p="SpawnFromSkeletonDataExample.cs" t="Include" />
-              <e p="SpawnSkeletonGraphicExample.cs" t="Include" />
-              <e p="Spineboy.cs" t="Include" />
-              <e p="SpineboyBodyTilt.cs" t="Include" />
-              <e p="SpineboyFacialExpression.cs" t="Include" />
-              <e p="SpineboyFootplanter.cs" t="Include" />
-              <e p="SpineboyFreeze.cs" t="Include" />
-              <e p="SpineboyPole.cs" t="Include" />
-              <e p="SpineboyPoleGraphic.cs" t="Include" />
-              <e p="SpineGauge.cs" t="Include" />
-            </e>
-            <e p="Sound" t="Include" />
-            <e p="Spine Skeletons" t="Include">
-              <e p="Dragon" t="Include">
-                <e p="dragon.atlas.txt" t="Include" />
-                <e p="dragon.json" t="Include" />
-                <e p="license.txt" t="Include" />
-              </e>
-              <e p="Eyes" t="Include">
-                <e p="eyes.atlas.txt" t="Include" />
-                <e p="eyes.json" t="Include" />
-              </e>
-              <e p="FootSoldier" t="Include">
-                <e p="Equipment" t="Include">
-                  <e p="Equipment.atlas.txt" t="Include" />
+              <e p="Sound" t="Include" />
+              <e p="Spine Skeletons" t="Include">
+                <e p="Dragon" t="Include">
+                  <e p="dragon.atlas.txt" t="Include" />
+                  <e p="dragon.json" t="Include" />
+                  <e p="license.txt" t="Include" />
                 </e>
-                <e p="FootSoldier.json" t="Include" />
-                <e p="FS_White.atlas.txt" t="Include" />
-                <e p="license.txt" t="Include" />
+                <e p="Eyes" t="Include">
+                  <e p="eyes.atlas.txt" t="Include" />
+                  <e p="eyes.json" t="Include" />
+                </e>
+                <e p="FootSoldier" t="Include">
+                  <e p="Equipment" t="Include">
+                    <e p="Equipment.atlas.txt" t="Include" />
+                  </e>
+                  <e p="FootSoldier.json" t="Include" />
+                  <e p="FS_White.atlas.txt" t="Include" />
+                  <e p="license.txt" t="Include" />
+                </e>
+                <e p="Gauge" t="Include">
+                  <e p="Gauge.atlas.txt" t="Include" />
+                  <e p="Gauge.json" t="Include" />
+                  <e p="ReferenceAssets" t="Include" />
+                </e>
+                <e p="Goblins" t="Include">
+                  <e p="goblins.atlas.txt" t="Include" />
+                  <e p="goblins.json" t="Include" />
+                </e>
+                <e p="Hero" t="Include">
+                  <e p="hero-pro.atlas.txt" t="Include" />
+                  <e p="hero-pro.json" t="Include" />
+                  <e p="license.txt" t="Include" />
+                  <e p="ReferenceAssets" t="Include" />
+                </e>
+                <e p="mix-and-match" t="Include">
+                  <e p="mix-and-match-pma.atlas.txt" t="Include" />
+                  <e p="mix-and-match-pro.json" t="Include" />
+                </e>
+                <e p="Raggedy Spineboy" t="Include">
+                  <e p="Raggedy Spineboy.atlas.txt" t="Include" />
+                  <e p="raggedy spineboy.json" t="Include" />
+                </e>
+                <e p="Raptor" t="Include">
+                  <e p="raptor.atlas.txt" t="Include" />
+                  <e p="raptor.json" t="Include" />
+                  <e p="ReferenceAssets" t="Include" />
+                </e>
+                <e p="raptor-pro-and-mask" t="Include">
+                  <e p="raptor-pma.atlas.txt" t="Include" />
+                  <e p="raptor-pro.json" t="Include" />
+                </e>
+                <e p="spineboy-pro" t="Include">
+                  <e p="ReferenceAssets" t="Include" />
+                  <e p="spineboy-pro.atlas.txt" t="Include" />
+                  <e p="spineboy-pro.json" t="Include" />
+                </e>
+                <e p="spineboy-unity" t="Include">
+                  <e p="Equips" t="Include" />
+                  <e p="ReferenceAssets" t="Include" />
+                  <e p="spineboy-unity.json" t="Include" />
+                  <e p="spineboy.atlas.txt" t="Include" />
+                </e>
+                <e p="Spineunitygirl" t="Include">
+                  <e p="Doi.atlas.txt" t="Include" />
+                  <e p="Doi.json" t="Include" />
+                  <e p="ReferenceAssets" t="Include" />
+                </e>
+                <e p="Stretchyman" t="Include">
+                  <e p="stretchyman-diffuse-pma.atlas.txt" t="Include" />
+                  <e p="stretchyman.json" t="Include" />
+                </e>
+                <e p="whirlyblendmodes" t="Include">
+                  <e p="whirlyblendmodes.atlas.txt" t="Include" />
+                  <e p="whirlyblendmodes.json" t="Include" />
+                </e>
               </e>
-              <e p="Gauge" t="Include">
-                <e p="Gauge.atlas.txt" t="Include" />
-                <e p="Gauge.json" t="Include" />
-                <e p="ReferenceAssets" t="Include" />
-              </e>
-              <e p="Goblins" t="Include">
-                <e p="goblins.atlas.txt" t="Include" />
-                <e p="goblins.json" t="Include" />
-              </e>
-              <e p="Hero" t="Include">
-                <e p="hero-pro.atlas.txt" t="Include" />
-                <e p="hero-pro.json" t="Include" />
-                <e p="license.txt" t="Include" />
-                <e p="ReferenceAssets" t="Include" />
-              </e>
-              <e p="mix-and-match" t="Include">
-                <e p="mix-and-match-pma.atlas.txt" t="Include" />
-                <e p="mix-and-match-pro.json" t="Include" />
-              </e>
-              <e p="Raggedy Spineboy" t="Include">
-                <e p="Raggedy Spineboy.atlas.txt" t="Include" />
-                <e p="raggedy spineboy.json" t="Include" />
-              </e>
-              <e p="Raptor" t="Include">
-                <e p="raptor.atlas.txt" t="Include" />
-                <e p="raptor.json" t="Include" />
-                <e p="ReferenceAssets" t="Include" />
-              </e>
-              <e p="raptor-pro-and-mask" t="Include">
-                <e p="raptor-pma.atlas.txt" t="Include" />
-                <e p="raptor-pro.json" t="Include" />
-              </e>
-              <e p="spineboy-pro" t="Include">
-                <e p="ReferenceAssets" t="Include" />
-                <e p="spineboy-pro.atlas.txt" t="Include" />
-                <e p="spineboy-pro.json" t="Include" />
-              </e>
-              <e p="spineboy-unity" t="Include">
-                <e p="Equips" t="Include" />
-                <e p="ReferenceAssets" t="Include" />
-                <e p="spineboy-unity.json" t="Include" />
-                <e p="spineboy.atlas.txt" t="Include" />
-              </e>
-              <e p="Spineunitygirl" t="Include">
-                <e p="Doi.atlas.txt" t="Include" />
-                <e p="Doi.json" t="Include" />
-                <e p="ReferenceAssets" t="Include" />
-              </e>
-              <e p="Stretchyman" t="Include">
-                <e p="stretchyman-diffuse-pma.atlas.txt" t="Include" />
-                <e p="stretchyman.json" t="Include" />
-              </e>
-              <e p="whirlyblendmodes" t="Include">
-                <e p="whirlyblendmodes.atlas.txt" t="Include" />
-                <e p="whirlyblendmodes.json" t="Include" />
-              </e>
+              <e p="spine-unity-examples.asmdef" t="Include" />
             </e>
-            <e p="spine-unity-examples.asmdef" t="Include" />
           </e>
           <e p="text_mesh_pro" t="Include">
-            <e p="Documentation" t="Include" />
-            <e p="Examples &amp; Extras" t="Include">
-              <e p="Fonts" t="Include">
-                <e p="Anton OFL.txt" t="Include" />
-                <e p="Bangers - OFL.txt" t="Include" />
-                <e p="Oswald-Bold - OFL.txt" t="Include" />
-              </e>
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Resources" t="Include">
-                <e p="Color Gradient Presets" t="Include" />
-                <e p="Fonts &amp; Materials" t="Include" />
-                <e p="Sprite Assets" t="Include" />
-              </e>
-              <e p="Scenes" t="Include" />
-              <e p="Scripts" t="Include">
-                <e p="Benchmark01.cs" t="Include" />
-                <e p="Benchmark01_UGUI.cs" t="Include" />
-                <e p="Benchmark02.cs" t="Include" />
-                <e p="Benchmark03.cs" t="Include" />
-                <e p="Benchmark04.cs" t="Include" />
-                <e p="CameraController.cs" t="Include" />
-                <e p="ChatController.cs" t="Include" />
-                <e p="DropdownSample.cs" t="Include" />
-                <e p="EnvMapAnimator.cs" t="Include" />
-                <e p="ObjectSpin.cs" t="Include" />
-                <e p="ShaderPropAnimator.cs" t="Include" />
-                <e p="SimpleScript.cs" t="Include" />
-                <e p="SkewTextExample.cs" t="Include" />
-                <e p="TeleType.cs" t="Include" />
-                <e p="TextConsoleSimulator.cs" t="Include" />
-                <e p="TextMeshProFloatingText.cs" t="Include" />
-                <e p="TextMeshSpawner.cs" t="Include" />
-                <e p="TMP_DigitValidator.cs" t="Include" />
-                <e p="TMP_ExampleScript_01.cs" t="Include" />
-                <e p="TMP_FrameRateCounter.cs" t="Include" />
-                <e p="TMP_PhoneNumberValidator.cs" t="Include" />
-                <e p="TMP_TextEventCheck.cs" t="Include" />
-                <e p="TMP_TextEventHandler.cs" t="Include" />
-                <e p="TMP_TextInfoDebugTool.cs" t="Include" />
-                <e p="TMP_TextSelector_A.cs" t="Include" />
-                <e p="TMP_TextSelector_B.cs" t="Include" />
-                <e p="TMP_UiFrameRateCounter.cs" t="Include" />
-                <e p="TMPro_InstructionOverlay.cs" t="Include" />
-                <e p="VertexColorCycler.cs" t="Include" />
-                <e p="VertexJitter.cs" t="Include" />
-                <e p="VertexShakeA.cs" t="Include" />
-                <e p="VertexShakeB.cs" t="Include" />
-                <e p="VertexZoom.cs" t="Include" />
-                <e p="WarpTextExample.cs" t="Include" />
-              </e>
-              <e p="Sprites" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
             <e p="Fonts" t="Include">
               <e p="LiberationSans - OFL.txt" t="Include" />
             </e>
@@ -640,7 +598,13 @@
             </e>
           </e>
         </e>
-        <e p="Prefabs" t="Include" />
+        <e p="Prefabs" t="Include">
+          <e p="first_scene" t="Include">
+            <e p="animated_sprites" t="Include" />
+            <e p="static_environment" t="Include" />
+          </e>
+          <e p="second_scene" t="Include" />
+        </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="HitDetection.cs" t="Include" />
