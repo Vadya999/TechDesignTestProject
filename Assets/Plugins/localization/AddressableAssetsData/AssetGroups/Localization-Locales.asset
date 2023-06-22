@@ -27,11 +27,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 3ed2413b3cabf3f4d8b984528e5ae3d8
-    m_Address: Faroese (fo)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
   - m_GUID: cb6ba95b3080e814b8857130ddbb7dde
     m_Address: English (en)
     m_ReadOnly: 1
